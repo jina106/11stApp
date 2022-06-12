@@ -59,10 +59,20 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager=new LinearLayoutManager(
                 this,LinearLayoutManager.VERTICAL,false);
 
+
+
         recyclerView.setLayoutManager(layoutManager);
 
         adapter=new  MovieAdapter();
         recyclerView.setAdapter(adapter);
+
+        adapter.addItem(new Movie("마녀2","3561248명","1위","총 판매금액:  3500000원"));
+        adapter.addItem(new Movie("범죄도시2","4526156명","2위","총 판매금액:  2300000원"));
+        adapter.addItem(new Movie("스파이더맨","4511256명","3위","총 판매금액:  2100000원"));
+        adapter.addItem(new Movie("나 홀로집에","4325167명","4위","총 판매금액:  2000000원"));
+        adapter.addItem(new Movie("미이라3","4123654명","5위","총 판매금액:  1950000원"));
+        adapter.addItem(new Movie("신과함께2","4021567명","6위","총 판매금액:  1930000원"));
+
 
 
     }

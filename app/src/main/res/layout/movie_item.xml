@@ -42,15 +42,6 @@
                     android:textSize="22sp" />
 
                 <TextView
-                    android:id="@+id/MoveRank"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:maxLines="1"
-                    android:text="영화순위"
-                    android:textColor="#ff0000"
-                    android:textSize="20sp" />
-
-                <TextView
                     android:id="@+id/Peoplecount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -60,6 +51,15 @@
                     android:text="관객수"
                     android:textColor="#FF0000FF"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/MoveRank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="영화순위"
+                    android:textColor="#ff0000"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/MoveAcc"
